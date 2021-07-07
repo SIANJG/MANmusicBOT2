@@ -49,3 +49,4 @@ def clear(chat_id: int):
             raise Empty
         else:
             queues[chat_id].clear()
+    raise Empty
