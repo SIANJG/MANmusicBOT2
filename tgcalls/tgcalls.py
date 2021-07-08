@@ -2,7 +2,7 @@ from pyrogram import Client
 from pytgcalls.pytgcalls import PyTgCalls
 
 import sira
-from GeezProject import config
+from DaisyXMusic import config
 
 
 client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
